@@ -5,13 +5,13 @@ This project provides a RESTful API to manage user-defined habits and track dail
 
 ## Table of Contents
 
-* [Features](#Features)
-* [Tech Stack](#Tech Stack)
-* [Getting Started](#Getting Started)
-* [API Endpoints](#API Endpoints)
-* [Data Models](#Data Models)
-* [Future Improvements](#Future Improvements)
-* [License](#License)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Getting Started](#getting-started)
+* [API Endpoints](#api-endpoints)
+* [Data Models](#data-models)
+* [Future Improvements](#future-improvements)
+* [License](#license)
 
 ## Features
 
