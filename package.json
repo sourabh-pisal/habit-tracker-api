@@ -1,0 +1,19 @@
+{
+  "name": "habit-tracker-api",
+  "version": "0.0.1",
+  "description": "A Node.js API for trackig daily habits and building streaks",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sourabh-pisal/habit-tracker-api.git"
+  },
+  "author": "Sourabh Pisal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sourabh-pisal/habit-tracker-api/issues"
+  },
+  "homepage": "https://github.com/sourabh-pisal/habit-tracker-api#readme"
+}
