@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/habit-tracker-api.ts",
+  "app": "node dist/bin/habit-tracker-api.js",
   "watch": {
     "include": [
       "**"

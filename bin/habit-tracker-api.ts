@@ -1,6 +1,10 @@
 #!/home/linuxbrew/.linuxbrew/opt/node/bin/node
-import * as cdk from "aws-cdk-lib";
-import { HabitTrackerApiStack } from "../lib/habit-tracker-api-stack";
+import { App, Tags } from "aws-cdk-lib";
+import { PipelineStack } from "../lib/pipeline-stack";
 
-const app = new cdk.App();
-new HabitTrackerApiStack(app, "HabitTrackerApiStack", { env: { region: "eu-west-1" } });
+const app = new App();
+
+const pipelineStack = new PipelineStack(app, "HabitTrackerApiStack", { env: { region: "eu-west-1" } });
+Tags.of(pipelineStack).add("project", "habit-tracker-api");
+
+app.synth();
